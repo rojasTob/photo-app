@@ -13,8 +13,14 @@
   <body>
     <%= render 'layouts/navigation' %>
     <div class="container mt-4">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
+     <div class="row">
+        <div class="col-lg-12">
+          <%= render 'layouts/messages' %>
+          <%= yield %>
+        </div>
+      <footer>
+        <p>&copy; APL Design 2023</p>
+      </footer>
     </div>
   </body>
 </html>
